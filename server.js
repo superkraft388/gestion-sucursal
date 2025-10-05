@@ -8,5 +8,5 @@ app.use(express.json());
 app.use('/api/sucursales', sucursalRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+    console.log(`Servidor corriendo en http://localhost:${PORT} en modo ${process.env.NODE_ENV || 'desarrollo'}`);
 });
