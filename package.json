@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo 'No tests specified' && exit 1"
   },
-  "author": "Nombre del Autor Actualizado",
+  "author": "Nuevo Nombre del Autor",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
